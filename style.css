@@ -11,30 +11,30 @@
 }
 
 body {
-  background-color: gray;
+  background-color: rgba(134, 134, 134, 0.852);
   display: flex;
   justify-content: center;
+}
+
+h2,
+textarea {
+  background-color: #faf3a2;
+  box-shadow: 15px 15px 15px rgba(46, 46, 46, 0.783);
+  width: 430px;
 }
 
 textarea {
   resize: none;
   border: none;
-  background-color: yellowgreen;
-  width: 430px;
-  height: 270px;
+  height: 280px;
   flex-basis: 70%;
   outline: none;
   padding: 0px 25px 0px 25px;
   overflow: hidden;
 }
 
-a {
-  background-color: yellowgreen;
-}
-
 h2 {
-  background-color: yellowgreen;
-  width: 430px;
+  color: rgb(3, 190, 190);
   margin-top: 0.3rem;
 }
 
