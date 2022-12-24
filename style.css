@@ -27,6 +27,23 @@ textarea {
   width: 430px;
 }
 
+li:nth-child(2n) h2,
+li:nth-child(2n) textarea {
+  background-color: #beadd1;
+  color: rgb(254, 255, 252);
+}
+li:nth-child(4n) h2,
+li:nth-child(4n) textarea {
+  background-color: #9adaf3;
+  color: blueviolet;
+}
+
+li:nth-child(9) h2,
+li:nth-child(9) textarea {
+  background-color: #a5dbdd;
+  color: rgb(50, 50, 50);
+}
+
 textarea {
   resize: none;
   border: none;
@@ -52,4 +69,14 @@ ul {
   justify-content: space-around;
   list-style: none;
   max-width: 1500px;
+}
+
+ul > li {
+  transform: rotate(-3deg);
+}
+ul > li:nth-child(2n) {
+  transform: rotate(4deg);
+}
+ul > li:nth-child(5n) {
+  transform: rotate(-4deg);
 }
