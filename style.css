@@ -24,6 +24,12 @@ body {
   align-items: center;
 }
 
+textarea {
+  background-color: #faf3a2;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(46, 46, 46, 0.783);
+  width: 6.66rem;
+}
+
 li:nth-child(2n) textarea {
   background-color: #beadd1;
   color: rgb(254, 255, 252);
@@ -47,9 +53,6 @@ textarea {
   padding: 0px 0.77rem 0px 0.77rem;
   overflow: hidden;
   color: rgb(3, 190, 190);
-  background-color: #faf3a2;
-  box-shadow: 0.3rem 0.3rem 0.3rem rgba(46, 46, 46, 0.783);
-  width: 6.66rem;
 }
 
 .title-area {
@@ -88,7 +91,6 @@ ul > li:hover .title-area {
   box-shadow: 0.33rem 0.33rem 0.33rem rgba(46, 46, 46, 0);
   position: relative;
   bottom: 0.77rem;
-  /* z-index: 7; */
 }
 
 a {
