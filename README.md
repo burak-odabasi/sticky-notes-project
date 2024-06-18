@@ -1,1 +1,1 @@
-View the project from this link --> https://augustcode99.github.io/sticky-notes-project/
+View the project from this link --> https://burak-odabasi.github.io/sticky-notes-project/
